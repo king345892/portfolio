@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      debugShowCheckedModeBanner: false, // hide debug banner
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
@@ -29,7 +28,7 @@ class HomePage extends StatelessWidget {
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
-        backgroundColor: Colors.black,
+        backgroundColor: const Color.fromARGB(255, 210, 188, 188),
       ),
       body: const Center(
         child: CircleAvatar(

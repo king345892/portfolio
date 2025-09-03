@@ -31,8 +31,7 @@ class ContactPage extends StatelessWidget {
             SizedBox(height: 20),
             Text(
               "Email: yourname@example.com\n"
-              "Phone: +91-XXXXXXXXXX\n"
-              "GitHub: https://github.com/YOUR-USERNAME\n",
+              "Phone: +91-XXXXXXXXXX\n",
               style: TextStyle(fontSize: 16),
             ),
           ],
